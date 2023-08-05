@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #1a0080;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+#about {
+    background-color: #acdef2;
+}
+
+#portfolio {
+    background-color: #ace5f2;
+}
+
+#contact {
+    background-color: #125a6c;
+}
+
+#visit {
+    background-color: hwb(181 17% 33%);
+}
+
+.project-card {
+    border: 1px solid #acecf2;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    margin-bottom: 0;
+}
+
+.project-card a {
+    display: block;
+    margin-top: 10px;
+}
